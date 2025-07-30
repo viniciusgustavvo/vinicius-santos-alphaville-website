@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinicius Santos - Especialista em Alphaville</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Vinicius Santos</h2>
+                    <span>Especialista Alphaville</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#buscar" class="nav-link">Buscar Imóveis</a></li>
+                    <li><a href="about.html" class="nav-link">Sobre Mim</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Alphaville: Onde Seus Sonhos 
+                    <span class="highlight">Encontram o Futuro Perfeito</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Descubra o lugar que manda leite e mel para quem busca investimento e moradia de qualidade. 
+                    Especialista pernambucano com 23 anos, dedicado a transformar sua vida em Alphaville.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#buscar" class="btn btn-primary">Encontrar Meu Imóvel</a>
+                    <a href="about.html" class="btn btn-secondary">Conhecer Vinicius</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>500+</h3>
+                    <p>Imóveis Vendidos</p>
+                </div>
+                <div class="stat">
+                    <h3>98%</h3>
+                    <p>Clientes Satisfeitos</p>
+                </div>
+                <div class="stat">
+                    <h3>5 Anos</h3>
+                    <p>Experiência</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section id="buscar" class="search-section">
+        <div class="container">
+            <div class="search-header">
+                <h2>Encontre Seu Imóvel Ideal em Alphaville</h2>
+                <p>Use nossos filtros inteligentes para descobrir a oportunidade perfeita</p>
+            </div>
+            
+            <form class="search-form" id="searchForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="objetivo">Objetivo</label>
+                        <select id="objetivo" name="objetivo" required>
+                            <option value="">Selecione o objetivo</option>
+                            <option value="investimento">Investimento</option>
+                            <option value="moradia">Moradia</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="tipo">Tipo de Imóvel</label>
+                        <select id="tipo" name="tipo" required>
+                            <option value="">Tipo do imóvel</option>
+                            <option value="apartamento">Apartamento</option>
+                            <option value="casa">Casa</option>
+                            <option value="casa-condominio">Casa em Condomínio</option>
+                            <option value="terreno">Terreno</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="preco">Faixa de Preço</label>
+                        <select id="preco" name="preco">
+                            <option value="">Qualquer valor</option>
+                            <option value="500000">Até R$ 500.000</option>
+                            <option value="1000000">Até R$ 1.000.000</option>
+                            <option value="2000000">Até R$ 2.000.000</option>
+                            <option value="5000000">Até R$ 5.000.000</option>
+                            <option value="5000001">Acima de R$ 5.000.000</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="quartos">Quartos</label>
+                        <select id="quartos" name="quartos">
+                            <option value="">Qualquer</option>
+                            <option value="1">1+ quarto</option>
+                            <option value="2">2+ quartos</option>
+                            <option value="3">3+ quartos</option>
+                            <option value="4">4+ quartos</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn btn-search">
+                    Buscar Imóveis
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section">
+        <div class="container">
+            <div id="loading" class="loading hidden">
+                <p>Buscando os melhores imóveis para você...</p>
+            </div>
+            
+            <div id="results" class="results-grid">
+                <!-- Resultados serão inseridos aqui via JavaScript -->
+            </div>
+            
+            <div id="no-results" class="no-results hidden">
+                <h3>Nenhum imóvel encontrado</h3>
+                <p>Tente ajustar os filtros de busca ou entre em contato comigo para opções personalizadas.</p>
+                <a href="#contato" class="btn btn-primary">Falar com Vinicius</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section class="why-choose">
+        <div class="container">
+            <h2>Por que Escolher Alphaville com Vinicius Santos?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Especialista Local</h3>
+                    <p>Conheço cada canto de Alphaville e suas melhores oportunidades de investimento</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">💎</div>
+                    <h3>Investimentos Certeiros</h3>
+                    <p>Foco em imóveis com alto potencial de valorização e retorno garantido</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🏠</div>
+                    <h3>Moradia dos Sonhos</h3>
+                    <p>Encontro o lar perfeito para sua família viver com qualidade e segurança</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Acompanhamento completo desde a busca até a entrega das chaves</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Pronto para Seu Futuro Perfeito?</h2>
+                    <p>Entre em contato e descubra como Alphaville pode transformar sua vida</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>WhatsApp:</strong> (11) 99999-9999
+                        </div>
+                        <div class="contact-item">
+                            <strong>Email:</strong> vinicius@alphavilleespecialista.com.br
+                        </div>
+                        <div class="contact-item">
+                            <strong>Localização:</strong> Alphaville, Barueri - SP
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <a href="https://wa.me/5511999999999" class="btn btn-whatsapp" target="_blank">
+                        Falar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Vinicius Santos</h3>
+                    <p>Especialista em Alphaville - Investimentos e Moradia</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Início</a>
+                    <a href="#buscar">Buscar</a>
+                    <a href="about.html">Sobre</a>
+                    <a href="#contato">Contato</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Vinicius Santos. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
