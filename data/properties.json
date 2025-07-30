@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "titulo": "Apartamento de Luxo - Alphaville Residencial 1",
+    "tipo": "apartamento",
+    "objetivo": "moradia",
+    "preco": 1800000,
+    "localizacao": "Alphaville Residencial 1",
+    "quartos": 3,
+    "imagem": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Apartamento moderno com excelente localização, vista panorâmica e infraestrutura completa. Condomínio com área de lazer, piscina e academia."
+  },
+  {
+    "id": 2,
+    "titulo": "Casa Exclusiva para Investimento - Alphaville Residencial 2",
+    "tipo": "casa",
+    "objetivo": "investimento",
+    "preco": 2500000,
+    "localizacao": "Alphaville Residencial 2",
+    "quartos": 4,
+    "imagem": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Residência espaçosa ideal para investimento com alto potencial de valorização. Localização privilegiada com fácil acesso às principais vias."
+  },
+  {
+    "id": 3,
+    "titulo": "Casa em Condomínio - Alphaville Residencial 4",
+    "tipo": "casa-condominio",
+    "objetivo": "moradia",
+    "preco": 3200000,
+    "localizacao": "Alphaville Residencial 4",
+    "quartos": 5,
+    "imagem": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Casa em condomínio fechado com área de lazer completa, segurança 24h, piscina, quadras esportivas e espaço gourmet."
+  },
+  {
+    "id": 4,
+    "titulo": "Apartamento Compacto - Alphaville Centro Comercial",
+    "tipo": "apartamento",
+    "objetivo": "investimento",
+    "preco": 850000,
+    "localizacao": "Alphaville Centro Comercial",
+    "quartos": 2,
+    "imagem": "https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Apartamento compacto e moderno, ideal para investimento com alta demanda de locação. Próximo ao centro comercial e empresarial."
+  },
+  {
+    "id": 5,
+    "titulo": "Terreno Premium - Alphaville Residencial 3",
+    "tipo": "terreno",
+    "objetivo": "investimento",
+    "preco": 1200000,
+    "localizacao": "Alphaville Residencial 3",
+    "quartos": 0,
+    "imagem": "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Terreno em localização privilegiada, perfeito para construção de casa dos sonhos. Área nobre com infraestrutura completa."
+  },
+  {
+    "id": 6,
+    "titulo": "Casa Moderna - Alphaville Residencial 5",
+    "tipo": "casa",
+    "objetivo": "moradia",
+    "preco": 4500000,
+    "localizacao": "Alphaville Residencial 5",
+    "quartos": 6,
+    "imagem": "https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Casa moderna com arquitetura contemporânea, piscina, área gourmet, home office e suítes com closet. Acabamento de alto padrão."
+  },
+  {
+    "id": 7,
+    "titulo": "Apartamento Duplex - Alphaville Residencial 6",
+    "tipo": "apartamento",
+    "objetivo": "moradia",
+    "preco": 2800000,
+    "localizacao": "Alphaville Residencial 6",
+    "quartos": 4,
+    "imagem": "https://images.pexels.com/photos/2581922/pexels-photo-2581922.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Apartamento duplex com terraço privativo, vista deslumbrante e acabamento de luxo. Condomínio com spa e área de convivência."
+  },
+  {
+    "id": 8,
+    "titulo": "Casa para Investimento - Alphaville Residencial 7",
+    "tipo": "casa",
+    "objetivo": "investimento",
+    "preco": 1950000,
+    "localizacao": "Alphaville Residencial 7",
+    "quartos": 3,
+    "imagem": "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Casa com excelente potencial de valorização, localizada em área de expansão. Ideal para investidores visionários."
+  },
+  {
+    "id": 9,
+    "titulo": "Apartamento Studio - Alphaville Centro",
+    "tipo": "apartamento",
+    "objetivo": "investimento",
+    "preco": 650000,
+    "localizacao": "Alphaville Centro",
+    "quartos": 1,
+    "imagem": "https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Studio moderno e funcional, perfeito para jovens profissionais. Alta demanda de locação e excelente retorno sobre investimento."
+  },
+  {
+    "id": 10,
+    "titulo": "Casa de Alto Padrão - Alphaville Residencial 8",
+    "tipo": "casa-condominio",
+    "objetivo": "moradia",
+    "preco": 5800000,
+    "localizacao": "Alphaville Residencial 8",
+    "quartos": 7,
+    "imagem": "https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Casa de alto padrão com design exclusivo, cinema privativo, adega climatizada e área de lazer completa. O máximo em luxo e conforto."
+  },
+  {
+    "id": 11,
+    "titulo": "Terreno Comercial - Alphaville Empresarial",
+    "tipo": "terreno",
+    "objetivo": "investimento",
+    "preco": 3500000,
+    "localizacao": "Alphaville Empresarial",
+    "quartos": 0,
+    "imagem": "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Terreno comercial em localização estratégica, ideal para empreendimentos empresariais. Alto potencial de valorização."
+  },
+  {
+    "id": 12,
+    "titulo": "Apartamento Familiar - Alphaville Residencial 9",
+    "tipo": "apartamento",
+    "objetivo": "moradia",
+    "preco": 2200000,
+    "localizacao": "Alphaville Residencial 9",
+    "quartos": 4,
+    "imagem": "https://images.pexels.com/photos/2079246/pexels-photo-2079246.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Apartamento espaçoso e bem distribuído, perfeito para famílias. Varanda gourmet, suítes amplas e área de serviço completa."
+  },
+  {
+    "id": 13,
+    "titulo": "Casa Térrea - Alphaville Residencial 10",
+    "tipo": "casa",
+    "objetivo": "moradia",
+    "preco": 3800000,
+    "localizacao": "Alphaville Residencial 10",
+    "quartos": 5,
+    "imagem": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Casa térrea com jardim amplo, piscina aquecida e área gourmet. Ideal para quem busca conforto e praticidade em um só lugar."
+  },
+  {
+    "id": 14,
+    "titulo": "Loft Moderno - Alphaville Centro",
+    "tipo": "apartamento",
+    "objetivo": "investimento",
+    "preco": 750000,
+    "localizacao": "Alphaville Centro",
+    "quartos": 1,
+    "imagem": "https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Loft com conceito moderno e inovador, pé-direito alto e design contemporâneo. Excelente para investimento ou moradia jovem."
+  },
+  {
+    "id": 15,
+    "titulo": "Casa com Piscina - Alphaville Residencial 11",
+    "tipo": "casa-condominio",
+    "objetivo": "moradia",
+    "preco": 4200000,
+    "localizacao": "Alphaville Residencial 11",
+    "quartos": 6,
+    "imagem": "https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "descricao": "Casa com piscina privativa, área gourmet completa e jardim paisagístico. Condomínio com clube e área verde preservada."
+  }
+]
