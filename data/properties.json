@@ -6,7 +6,7 @@
     "objetivo": "moradia",
     "preco": 900000,
     "localizacao": "Alameda Araguaia, 2340",
-    "quartos":  2 a 4,
+    "quartos":  2 "a" 4,
     "imagem": "https://images.app.goo.gl/RnFBAmDYcSLdVciFA",
     "descricao": "Apartamento moderno com excelente localização, vista panorâmica e infraestrutura completa. Condomínio com área de lazer, piscina e academia."
   },
