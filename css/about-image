@@ -580,8 +580,8 @@ body {
 }
 
 .about-image img {
-    width: 100%;
-    height: 300px;
+    width: 70%;
+    height: 250px;
     object-fit: cover;
     border-radius: 12px;
     box-shadow: var(--shadow-hover);
