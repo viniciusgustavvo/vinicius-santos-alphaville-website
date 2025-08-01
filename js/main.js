@@ -43,13 +43,13 @@ document.addEventListener('DOMContentLoaded', function() {
         return [
             {
                 id: 1,
-                titulo: "Apartamento de Luxo - Alphaville Residencial 1",
+                titulo: "NID Alphaville",
                 tipo: "apartamento",
                 objetivo: "moradia",
-                preco: 1800000,
-                localizacao: "Alphaville Residencial 1",
-                quartos: 3,
-                imagem: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
+                preco: 900000,
+                localizacao: "Alameda Araguaia, 2340",
+                quartos: 4,
+                imagem: "https://images.app.goo.gl/RnFBAmDYcSLdVciFA",
                 descricao: "Apartamento moderno com excelente localização, vista panorâmica e infraestrutura completa."
             },
             {
