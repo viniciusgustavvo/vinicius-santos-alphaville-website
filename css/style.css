@@ -580,7 +580,7 @@ body {
 }
 
 .about-image img {
-    width: 70%;
+    width: 40%;
     height: 200px;
     object-fit: cover;
     border-radius: 12px;
