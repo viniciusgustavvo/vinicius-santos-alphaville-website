@@ -12,14 +12,14 @@
   },
   {
     "id": 2,
-    "titulo": "Casa Exclusiva para Investimento - Alphaville Residencial 2",
-    "tipo": "casa",
-    "objetivo": "investimento",
-    "preco": 2500000,
-    "localizacao": "Alphaville Residencial 2",
-    "quartos": 4,
-    "imagem": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "descricao": "Residência espaçosa ideal para investimento com alto potencial de valorização. Localização privilegiada com fácil acesso às principais vias."
+    "titulo": "Andrômeda By MPD",
+    "tipo": "apartamento",
+    "objetivo": "investimento","moradia",
+    "preco": 1152000,
+    "localizacao": "Av. Andrômeda, 328",
+    "quartos": 3,
+    "imagem": "ANDRÔMEDA.JPG",
+    "descricao": "Andrômeda by MPD — 2 e 3 suítes, 2 vagas e todas as unidades com depósito privativo. piscinas, academia moderna, quadra esportiva, beach tennis. Plantas de 90 e 123m2."
   },
   {
     "id": 3,
